@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Navbar from "../pages/partial/Navbar";
-import Footer from "../pages/partial/Footer";
+import React from "react"
+import { Link } from "react-router-dom"
+import Navbar from "../pages/partial/Navbar"
+import Footer from "../pages/partial/Footer"
 
 class Home extends React.Component {
   render() {
@@ -77,16 +77,16 @@ class Home extends React.Component {
 
           <div id="about" className="about-section">
             <div className="container text-center">
-              <h2 className="section-title">WHY ECO PERÚ TRIPS?</h2>
+              <h2 className="section-title">WHY ECO PERÚ HIKES?</h2>
               <p className="intro">
-                Ecoperutrips is a local, sustainable and reliable Travel Company
+                Ecoperuhikes is a local, sustainable and reliable Travel Company
                 based 5 years ago in the headquarters of Inca Empire “Cusco” in
                 order to give customers memorable experiences and raise
                 awareness about Nature this is the main target of the company.
                 As a local Company we are so mingled with native people with
                 indegenious people and at the same time we work with them so,
                 our guides, cooks, porters and so among others are from Cusco
-                and are the core of the company. Eco Peru Trips was founded via
+                and are the core of the company. Eco Peru Hikes was founded via
                 Armando Tinta Guevara a local and a renowned guide in Cusco with
                 deep experience and knowledge on history, nature and in
                 particular all about above Inca Culture. He has guided, led and
@@ -95,7 +95,7 @@ class Home extends React.Component {
               </p>
               <ul className="technologies list-inline">
                 <li className="list-inline-item">
-                  <img src="assets/images/ecoverde.png" alt="Sass" />
+                  <img src="assets/images/negro.png" alt="Sass" />
                 </li>
               </ul>
             </div>
@@ -109,7 +109,7 @@ class Home extends React.Component {
                   <ul>
                     <li>
                       <div className="tour">
-                        <Link to="/tour">
+                        <Link to="/inca-trail">
                           <div className="image-tour">
                             <div
                               style={{
@@ -129,33 +129,33 @@ class Home extends React.Component {
                           <div className="txt">
                             <span className="pacakagetitle">
                               {" "}
-                              Colca canyon trek.{" "}
+                              Short Inca Trail.{" "}
                             </span>
 
                             <p style={{ display: "none" }}>
-                              Colca canyon trek. Enjoy a two day tour, meet the
-                              deepest canyon in the world with our program colca
-                              canyon 2 day tour.{" "}
+                              Absolutely, the are many treks to Machupicchu but
+                              definitely one of them is the most demanded by
+                              hikers this is the remarkable 2 day Inca Trail.{" "}
                             </p>
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>4</span>
-                                Days
+                                <span>2</span>
+                                D/1N
                               </div>
 
                               <div className="country">
-                                <span>Colca canyon trek. </span>
+                                <span>Short Inca trail. </span>
                               </div>
                             </div>
                           </div>
 
                           <div className="pricedetail">
-                            <span className="price">$390</span>
+                            <span className="price">$550</span>
 
-                            <span className="typ-proce">Typically $620</span>
+                            <span className="typ-proce">Typically $550</span>
                             <Link
-                              to="/tour"
+                              to="/inca-trail"
                               className="viewdetail"
                               style={{
                                 paddingTop: "10px",
@@ -206,8 +206,7 @@ class Home extends React.Component {
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>1</span>
-                                Days
+                                <span>Half-Day</span>
                               </div>
 
                               <div className="country">
@@ -246,7 +245,7 @@ class Home extends React.Component {
                     </li>
                     <li>
                       <div className="tour">
-                        <Link to="/tour">
+                        <Link to="/museum-cusco">
                           <div className="image-tour">
                             <div
                               style={{
@@ -266,40 +265,38 @@ class Home extends React.Component {
                           <div className="txt">
                             <span className="pacakagetitle">
                               {" "}
-                              Tour Maras, Moray and Salineras
+                              Guided visit to the inca museum
                             </span>
 
                             <p style={{ display: "none" }}>
-                              Tour Maras, Moray and Salineras Visit two of the
-                              Inca world's engineering wonders, admiring the
-                              sunlight playing with the thousands of white
-                              terraced pools of the Maras.
+                              The Inca Museum is the most beautiful and the most
+                              complete in comparison to other ones in Cusco
+                              City.
                             </p>
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>2</span>
-                                Days
+                                <span>2 Hours</span>
                               </div>
 
                               <div className="country">
-                                <span>Tour Maras, Moray and Salineras</span>
+                                <span>Inca museum</span>
                               </div>
                             </div>
                           </div>
 
                           <div className="pricedetail">
-                            <span className="price">$90</span>
+                            <span className="price">$20</span>
 
                             <span
                               className="typ-proce"
                               style={{ display: "none" }}
                             >
-                              Typically $220
+                              Typically $30
                             </span>
 
                             <Link
-                              to="/tour"
+                              to="/museum-cusco"
                               className="viewdetail"
                               style={{
                                 paddingTop: "10px",
@@ -319,7 +316,7 @@ class Home extends React.Component {
 
                     <li>
                       <div className="tour">
-                        <Link to="/tour">
+                        <Link to="/humantay">
                           <div className="image-tour">
                             <div
                               style={{
@@ -339,41 +336,37 @@ class Home extends React.Component {
                           <div className="txt">
                             <span className="pacakagetitle">
                               {" "}
-                              Sacred Valley and Machu Picchu
+                              Humantay Lake-Hike
                             </span>
 
                             <p style={{ display: "none" }}>
-                              Sacred Valley and Machu Picchu: tour the main
-                              archeological sites of the Sacred Valley of the
-                              Incas, Pisaq and Ollantaytambo, and spend the
-                              night in Aguas Calientes and then visit Machu
-                              Picchu.
+                            Humantay Lake is one of the nicest and unique lakes in Peru so visited due to its beauty and was taken as a holy mountain by the Incas, even know people still worship it. 
                             </p>
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>4</span>
-                                Days
+                                <span>1</span>
+                                Day
                               </div>
 
                               <div className="country">
-                                <span>Sacred Valley and Machu Picchu</span>
+                                <span>Humantay Lake</span>
                               </div>
                             </div>
                           </div>
 
                           <div className="pricedetail">
-                            <span className="price">$110</span>
+                            <span className="price">$140</span>
 
                             <span
                               className="typ-proce"
                               style={{ display: "none" }}
                             >
-                              Typically $300
+                              Typically $200
                             </span>
 
                             <Link
-                              to="/tour"
+                              to="/humantay"
                               className="viewdetail"
                               style={{
                                 paddingTop: "10px",
@@ -393,7 +386,7 @@ class Home extends React.Component {
 
                     <li>
                       <div className="tour">
-                        <Link to="/tour">
+                        <Link to="/rainbow">
                           <div className="image-tour">
                             <div
                               style={{
@@ -413,40 +406,38 @@ class Home extends React.Component {
                           <div className="txt">
                             <span className="pacakagetitle">
                               {" "}
-                              southern Sacred Valley
+                              vinicunca rainbow mountain
                             </span>
 
                             <p style={{ display: "none" }}>
-                              Travel the less-frequented but equally astonishing
-                              southern Sacred Valley, which boasts Inca and Wari
-                              ruins with impressive fountains and artificial
-                              waterfalls, and the surprising colonial
+                            Rainbow Mountain or known to plateau dwellers as Vinicunca is
+                  an outstanding natural formation
                             </p>
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>2</span>
-                                Days
+                                <span>1</span>
+                                Day
                               </div>
 
                               <div className="country">
-                                <span>southern Sacred Valley</span>
+                                <span>rainbow mountain</span>
                               </div>
                             </div>
                           </div>
 
                           <div className="pricedetail">
-                            <span className="price">$50</span>
+                            <span className="price">$100</span>
 
                             <span
                               className="typ-proce"
                               style={{ display: "none" }}
                             >
-                              Typically $70
+                              Typically $120
                             </span>
 
                             <Link
-                              to="/tour"
+                              to="/rainbow"
                               className="viewdetail"
                               style={{
                                 paddingTop: "10px",
@@ -466,7 +457,7 @@ class Home extends React.Component {
 
                     <li>
                       <div className="tour">
-                        <Link to="/tour">
+                        <Link to="/sacred-valley">
                           <div className="image-tour">
                             <div
                               style={{
@@ -490,36 +481,34 @@ class Home extends React.Component {
                             </span>
 
                             <p style={{ display: "none" }}>
-                              Experience the magic of the Sacred Valley touring
-                              sites rich in beauty and history, from the Inca
-                              waterworks of Tipón to the Wari ruins of
-                              Pikillacta, the gleaming Salt Mines of Maras,{" "}
+                              Known to people as Valle Sagrado de Los Incas or
+                              Sacred Valley of the Incas,{" "}
                             </p>
 
                             <div className="daywithcountry daynight-Days">
                               <div className="days">
-                                <span>3</span>
-                                Days
+                                <span>Full </span>
+                                Day
                               </div>
 
                               <div className="country">
-                                <span>Tour Maras, Moray and Salineras</span>
+                                <span>Pisaq, Ollantaytambo</span>
                               </div>
                             </div>
                           </div>
 
                           <div className="pricedetail">
-                            <span className="price">$80</span>
+                            <span className="price">$190</span>
 
                             <span
                               className="typ-proce"
                               style={{ display: "none" }}
                             >
-                              Typically $100
+                              Typically $220
                             </span>
 
                             <Link
-                              to="/tour"
+                              to="/sacred-valley"
                               className="viewdetail"
                               style={{
                                 paddingTop: "10px",
@@ -785,7 +774,7 @@ class Home extends React.Component {
         </body>
         <Footer />
       </div>
-    );
+    )
   }
 }
-export default Home;
+export default Home

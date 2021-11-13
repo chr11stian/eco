@@ -55,11 +55,11 @@ class Tour extends Component {
 
                     <div className="stat-item">
                       <h4 className="stat-heading">Duration</h4>
-                      <div className="stat-text">1 day</div>
+                      <div className="stat-text">couple of hours</div>
                     </div>
                     <div className="stat-item">
                       <h4 className="stat-heading">Difficulty</h4>
-                      <div className="stat-text">Challenging/difficult </div>
+                      <div className="stat-text">Easy peasy </div>
                     </div>
                   </div>
                 </div>
@@ -79,13 +79,13 @@ class Tour extends Component {
                   artifacts such as potteries, jewelry, and so on. This museum
                   is the only one that has a remarkable timeline explaining and
                   nurturing visitors with much history lovely and closely. This
-                  is an unique experience fulls of history and
+                  is an unique experience fulls of history waiting for you. 
                 </p>
                 <h3>
                   <strong>
                     P.S. Take advantage of your free morning or free afternoon
                     and dive into Incas History visiting this amazing museum. We
-                    are the only company that offers guided visits at/to the
+                    are the only company that offers guided visits to the inka
                     museum.
                   </strong>
                 </h3>
@@ -95,7 +95,7 @@ class Tour extends Component {
                     <strong>DETAILED ITINERARY</strong>
                   </p>
                   <li>
-                    The Inca M. is located right downtown around the main plaza
+                    The Inca Museum is located right downtown around the main plaza
                     of Cusco next to the left side to the Cathedral on the
                     corner of Cuesta del Almirante street there is a Spanish
                     building that has a colonial facade this is the museum. On

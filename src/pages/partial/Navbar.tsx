@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
 class NavBar extends Component {
   render() {
     return (
@@ -7,7 +7,11 @@ class NavBar extends Component {
         <div className="container">
           <h1 className="logo">
             <Link to="/" className="scrollto" href="/">
-              <img className="logo-icon1" src="assets/images/eco13.png" />
+              <img
+                style={{ marginTop: "-5px" }}
+                className="logo-icon1"
+                src="assets/images/14.png"
+              />
             </Link>
           </h1>
           <nav
@@ -113,7 +117,7 @@ class NavBar extends Component {
           </nav>
         </div>
       </header>
-    );
+    )
   }
 }
-export default NavBar;
+export default NavBar

@@ -73,7 +73,8 @@ class Tour extends Component {
                 <p>
                   Known to people as Valle Sagrado de Los Incas or Sacred Valley
                   of the Incas, based on historical records the most important
-                  and useful valley because of its fertile soil.
+                  and useful valley because of its fertile soil. Along it visitors can visit Inca sites, 
+                  mingle with locals and understand the importance of this magnificent valley. 
                 </p>
                 <h3>
                   <strong>P.S. So many places, so little time?</strong>

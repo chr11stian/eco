@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import MuseumCusco from "./pages/MuseumCusco";
 import Rainbow from "./pages/Rainbow";
 import SacredValley from "./pages/SacredValley";
+import Humantay from "./pages/Humantay";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/museum-cusco" component={MuseumCusco} />
           <Route path="/rainbow" component={Rainbow} />
           <Route path="/sacred-valley" component={SacredValley} />
+          <Route path="/humantay" component={Humantay} />
 
           <Route path="/login" component={Login} />
           <Route path="/new-tour" component={TourForm} />

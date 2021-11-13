@@ -46,7 +46,7 @@ class Tour extends Component {
                     <h3 className="quick-stats-heading">Quick Stats</h3>
                     <div className="stat-item">
                       <h4 className="stat-heading">Trip Type</h4>
-                      <div className="stat-text">Sightseeing</div>
+                      <div className="stat-text">Hiking / Treikking</div>
                     </div>
                     <div className="stat-item">
                       <h4 className="stat-heading">Season</h4>
