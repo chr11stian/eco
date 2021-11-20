@@ -340,7 +340,10 @@ class Home extends React.Component {
                             </span>
 
                             <p style={{ display: "none" }}>
-                            Humantay Lake is one of the nicest and unique lakes in Peru so visited due to its beauty and was taken as a holy mountain by the Incas, even know people still worship it. 
+                              Humantay Lake is one of the nicest and unique
+                              lakes in Peru so visited due to its beauty and was
+                              taken as a holy mountain by the Incas, even know
+                              people still worship it.
                             </p>
 
                             <div className="daywithcountry daynight-Days">
@@ -410,8 +413,8 @@ class Home extends React.Component {
                             </span>
 
                             <p style={{ display: "none" }}>
-                            Rainbow Mountain or known to plateau dwellers as Vinicunca is
-                  an outstanding natural formation
+                              Rainbow Mountain or known to plateau dwellers as
+                              Vinicunca is an outstanding natural formation
                             </p>
 
                             <div className="daywithcountry daynight-Days">
