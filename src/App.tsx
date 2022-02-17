@@ -16,6 +16,7 @@ import Humantay from "./pages/Humantay";
 
 function App() {
   return (
+    
     <div>
       <Router>
         <Switch>
