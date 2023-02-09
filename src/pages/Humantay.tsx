@@ -1,6 +1,6 @@
-import React, { Component } from "react"
-import Navbar from "../pages/partial/Navbar"
-import Footer from "../pages/partial/Footer"
+import React, { Component } from "react";
+import Navbar from "../pages/partial/Navbar";
+import Footer from "../pages/partial/Footer";
 
 class Tour extends Component {
   render() {
@@ -223,28 +223,31 @@ class Tour extends Component {
                           {" "}
                           Blanket to stay warm on the bus during the trip.{" "}
                         </li>
-                        <li>First aid kit and tank of oxygen. 
-                            </li>{" "}
-                            <li>Snacks for the hike. </li>
-
-<li>Entrance fee to Rainbow Mountain.</li>      
-<li>Lunch</li>      
-          </ul>
+                        <li>First aid kit and tank of oxygen.</li>{" "}
+                        <li>Snacks for the hike. </li>
+                        <li>Entrance fee to Rainbow Mountain.</li>
+                        <li>Lunch</li>
+                      </ul>
                     </div>
                     <div id="menu1" className="tab-pane fade">
                       <ul>
                         <li>Walking poles you can rent them from us</li>
-                        <li>Personal riding (horse driver) can be rented at the starting point.</li>
+                        <li>
+                          Personal riding (horse driver) can be rented at the
+                          starting point.
+                        </li>
                         <li>Travel/Health/Emergency Insurance.</li>
                         <li>Gratuity for staff.</li>
-                        
                       </ul>
                     </div>
                     <div id="menu2" className="tab-pane fade">
                       <ul>
-                        <li>Warm clothes (thermal pants as a first layer, woolen hat, gloves, fleece, woolen socks, scarf).</li>
+                        <li>
+                          Warm clothes (thermal pants as a first layer, woolen
+                          hat, gloves, fleece, woolen socks, scarf).
+                        </li>
                         <li>Comfortable hiking pants. </li>
-                        <li>1 Liter and half of water at least per person  </li>
+                        <li>1 Liter and half of water at least per person </li>
                         <li>Personal snacks (optional).</li>
                         <li>Water proof trekking boots</li>
                         <li>Day pack with rain cover</li>
@@ -264,7 +267,7 @@ class Tour extends Component {
         </div>
         <Footer />
       </div>
-    )
+    );
   }
 }
-export default Tour
+export default Tour;
