@@ -6,7 +6,7 @@ class NavBar extends Component {
       <header id="header" className="header">
         <div className="container">
           <h1 className="logo">
-            <Link to="/" className="scrollto" href="/">
+            <Link to="/" className="scrollto">
               <img
                 style={{ marginTop: "-5px" }}
                 className="logo-icon1"

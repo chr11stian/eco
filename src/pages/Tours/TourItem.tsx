@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 
 import * as tourService from "./ToursService";
 import { Tours } from "./Tours";
@@ -14,7 +14,7 @@ interface Props {
 const TourItem = (props: Props) => {
   const { tour, loadTours } = props;
 
-  const history = useHistory();
+  //const history = useHistory();
 
   const handleDelete = async (id: string) => {
     await tourService.deleteTourById(id);
@@ -26,7 +26,7 @@ const TourItem = (props: Props) => {
       <div
         className="card card-body "
         style={{ cursor: "pointer" }}
-        onClick={() => history.push(`/update/${tour._id}`)}
+        //onClick={() => history.push(`/update/${tour._id}`)}
       >
         <div className="d-flex justify-content-between">
           <h5>{tour.title}</h5>
