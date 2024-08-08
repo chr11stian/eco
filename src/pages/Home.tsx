@@ -77,7 +77,7 @@ class Home extends React.Component {
 
           <div id="about" className="about-section">
             <div className="container text-center">
-              <h2 className="section-title">WHY ECO PERÚ HIKES?</h2>
+              <h2 className="section-title">WHY?</h2>
               <p className="intro">
                 Ecoperuhikes is a local, sustainable and reliable Travel Company
                 based 5 years ago in the headquarters of Inca Empire “Cusco” in
@@ -95,7 +95,7 @@ class Home extends React.Component {
               </p>
               <ul className="technologies list-inline">
                 <li className="list-inline-item">
-                  <img src="assets/images/negro.png" alt="Sass" />
+                  
                 </li>
               </ul>
             </div>
