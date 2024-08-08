@@ -6,13 +6,7 @@ class NavBar extends Component {
       <header id="header" className="header">
         <div className="container">
           <h1 className="logo">
-            <Link to="/" className="scrollto">
-              <img
-                style={{ marginTop: "-5px" }}
-                className="logo-icon1"
-                src="assets/images/14.png"
-              />
-            </Link>
+            
           </h1>
           <nav
             className="main-nav navbar-expand-md float-right navbar-inverse"
